@@ -11,7 +11,11 @@ int main(int argc, char **argv)
     if (false) // make false to run unit-tests
     {
         // debug section
-        
+        auto ch = new Chocolate{2};
+        std::cout << ch->get_price_unit() << "\n";
+        std::cout << ch->get_units() << "\n";
+        std::cout << ch->price() << "\n";
+
     }
     else
     {
